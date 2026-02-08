@@ -1,4 +1,4 @@
-import { GildedRose, Item } from "@/gilded-rose";
+import { GildedRose, Item } from "@/index";
 
 /**
  * This test uses Vitest Snapshot, similar to [Jest Snapshot](https://goo.gl/fbAQLP).
