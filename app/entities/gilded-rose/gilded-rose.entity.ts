@@ -6,6 +6,7 @@ import {
   NormalItemUpdater,
   SulfurasUpdater,
 } from "./updaters";
+import { ConjuredItemUpdater } from "./updaters/conjured-item.updater";
 
 export class GildedRose {
   items: Array<Item>;
@@ -31,6 +32,9 @@ export class GildedRose {
     }
     if (item.name === "Backstage passes to a TAFKAL80ETC concert") {
       return new BackstagePassUpdater();
+    }
+    if (item.name.toLowerCase().includes("conjured")) {
+      return new ConjuredItemUpdater();
     }
     return new NormalItemUpdater();
   }
