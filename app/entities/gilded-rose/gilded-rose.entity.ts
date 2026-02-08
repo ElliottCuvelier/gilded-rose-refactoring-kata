@@ -2,11 +2,11 @@ import { Item } from "../item/item.entity";
 import {
   AgedBrieUpdater,
   BackstagePassUpdater,
+  ConjuredItemUpdater,
   ItemUpdaterBase,
   NormalItemUpdater,
   SulfurasUpdater,
 } from "./updaters";
-import { ConjuredItemUpdater } from "./updaters/conjured-item.updater";
 
 export class GildedRose {
   items: Array<Item>;
