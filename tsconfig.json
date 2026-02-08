@@ -5,6 +5,8 @@
     "strict": true,
     "noImplicitAny": false,
     "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./app",
     "baseUrl": "./",
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -14,6 +16,9 @@
       ]
     }
   },
+  "include": [
+    "app/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
