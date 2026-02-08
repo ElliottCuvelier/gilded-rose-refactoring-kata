@@ -1,2 +1,2 @@
-export * from "./gilded-rose.entity";
-export * from "./item.entity";
+export * from "./entities/gilded-rose/gilded-rose.entity";
+export * from "./entities/item/item.entity";
